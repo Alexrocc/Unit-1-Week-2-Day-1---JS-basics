@@ -96,8 +96,9 @@ console.log ("Il valore della variabile name adesso sarà: ", name);
 /*Una variabile dichiarata tramite il comando let non potrà essere nuovamente dichiarata, tuttavia sarà possibile assegnarle un nuovo valore
 tramite una semplice assegnazione (name = "Rocchigiani"). In questo modo,
 sebbene abbiamo inizialmente dichiarato la variabile name con un valore di "Alessio", da questo momento in poi la variabile name conterrà il valore stringa "Rocchigiani".
-Per evitare modifiche inaspettate/indesiderate delle variabili che ci interessa mantenere inalterate, esiste il costrutto const, il quale creerà una variabile 
-impossibile da alterare nel suo valore dichiarato, sebbene sia comunque possibile utilizzarla come un'altra variabile qualunque.*/
+Per "evitare" modifiche inaspettate/indesiderate delle variabili che ci interessa mantenere inalterate, esiste il costrutto const, il quale creerà una variabile 
+impossibile da alterare nel suo valore dichiarato (se primitivo), sebbene sia comunque possibile utilizzarla come un'altra variabile qualunque.
+In altri termini, permette una sicurezza maggiore su alcune variabili di rilevanza.*/
 
 const cognome = "Rocchigiani";
 
