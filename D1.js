@@ -49,6 +49,7 @@ let cassetto = null;
 /* Anche se il computer sa che non ci abbiamo messo niente, è sempre meglio dirgli che il contenitore è vuoto e che lo riempiremo dopo!
 "null" serve proprio a questo, a dire al computer che abbiamo un cassetto vuoto, e che dopo lo riempiremo con qualcosa! */
 
+console.log("I valori dell'esercizio 1 sono: ", stringa, stringa2, numero, vero, scatola, cassetto);
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -57,6 +58,8 @@ let cassetto = null;
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let name = "Alessio";
+
+console.log("Il valore di name è: ", name);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -68,7 +71,7 @@ let num1 = 12;
 let num2 = 20;
 let somma = num1 + num2;
 
-console.log(somma);
+console.log("La somma di 12 e 20 è: ", somma);
 
 
 /* ESERCIZIO 4
@@ -88,7 +91,7 @@ let x = 12;
 
 name = "Rocchigiani";
 
-console.log (name);
+console.log ("Il valore della variabile name adesso sarà: ", name);
 
 /*Una variabile dichiarata tramite il comando let non potrà essere nuovamente dichiarata, tuttavia sarà possibile assegnarle un nuovo valore
 tramite una semplice assegnazione (name = "Rocchigiani"). In questo modo,
@@ -98,14 +101,14 @@ impossibile da alterare nel suo valore dichiarato, sebbene sia comunque possibil
 
 const cognome = "Rocchigiani";
 
-console.log (cognome);
+console.log ("Il valore della costante cognome dichiarata è: ", cognome);
 
 // Utilizzando il construtto const, sappiamo per certo che la variabile cognome manterrà il suo valore di "Rocchigiani"
 /* Se tentassimo di modificarla, come sotto (rimuovi il commento e salva), la console ci informerà dell'errore, 
-poichè JS non accetta una modifica arbitraria al valore delle const */
+poichè JS non accetta una modifica successiva al valore delle const */
 
-// cognome = "Rossi"
-// console.log (cognome)
+// cognome = "Rossi";
+// console.log (cognome);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -115,7 +118,7 @@ poichè JS non accetta una modifica arbitraria al valore delle const */
 let y = 4;
 let sottrazione = y - x;
 
-console.log(sottrazione);
+console.log("La sottrazione di 4 - la variabile x è: ", sottrazione);
 
 
 /* ESERCIZIO 7
@@ -129,4 +132,4 @@ console.log(sottrazione);
 let name1 = "john";
 let name2 = "John";
 
-console.log(name1 === name2);
+console.log("Are john and john the same?", name1 === name2);
