@@ -137,6 +137,11 @@ console.log("Are john and John the same?", name1 === name2);
 
 //EXTRA
 
-let lowercase2 = name2.toLowerCase();
+//Possibilità 1
+//let lowercase2 = name2.toLowerCase();
 
-console.log("Utilizzando il .toLowerCase method per portare John in lowercase, l'uguaglianza diventa: ", name1 === lowercase2);
+//console.log("Utilizzando il .toLowerCase method per portare John in lowercase, l'uguaglianza diventa: ", name1 === lowercase2);
+
+//Possibilità 2
+
+console.log("Con il lowercase, sono john e John uguali? ", name1.toLowerCase === name2.toLowerCase);
