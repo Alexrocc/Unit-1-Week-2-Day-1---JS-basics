@@ -132,4 +132,4 @@ console.log("La sottrazione di 4 - la variabile x è: ", sottrazione);
 let name1 = "john";
 let name2 = "John";
 
-console.log("Are john and john the same?", name1 === name2);
+console.log("Are john and John the same?", name1 === name2);
